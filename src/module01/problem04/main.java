@@ -26,7 +26,6 @@ public class main {
             String b = tanganBagas[i];
 
             if (a.equals(b)) {
-                // seri
             } else if (
                     (a.equals("B") && b.equals("G")) ||
                             (a.equals("G") && b.equals("K")) ||
