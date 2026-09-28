@@ -3,18 +3,19 @@ package module01.problem05;
 import java.util.Scanner;
 
 public class main {
-    static final double PHI = 3.14;
+    static final double phi = 3.14;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan jari-jari: ");
-        double r = input.nextDouble();
+        double radius = input.nextDouble();
 
         System.out.print("Masukkan tinggi: ");
-        double t = input.nextDouble();
+        double height = input.nextDouble();
 
-        double volume = PHI * r * r * t;
+        double cylinderVolume = phi * radius * radius * height;
 
-        System.out.printf("Volume tabung dengan jari-jari %.1f cm dan tinggi %.1f cm adalah %.3f m3%n", r, t, volume);
+        System.out.printf("Volume tabung dengan jari-jari " + radius + " cm dan tinggi " + height +
+                " cm adalah %.3f m3",cylinderVolume);
     }
 }

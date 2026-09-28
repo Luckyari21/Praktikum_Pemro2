@@ -26,11 +26,10 @@ public class main {
             String b = tanganBagas[i];
 
             if (a.equals(b)) {
-                // seri
             } else if (
                     (a.equals("B") && b.equals("G")) ||
-                            (a.equals("G") && b.equals("K")) ||
-                            (a.equals("K") && b.equals("B"))
+                    (a.equals("G") && b.equals("K")) ||
+                    (a.equals("K") && b.equals("B"))
             ) {
                 poinAbu++;
             } else {
