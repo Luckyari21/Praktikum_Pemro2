@@ -2,7 +2,7 @@ package module01.problem04;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -18,8 +18,8 @@ public class main {
             tanganBagas[i] = input.next();
         }
 
-        int poinAbu = 0;
-        int poinBagas = 0;
+        int pointAbu = 0;
+        int pointBagas = 0;
 
         for (int i = 0; i < 3; i++) {
             String a = tanganAbu[i];
@@ -31,15 +31,15 @@ public class main {
                     (a.equals("G") && b.equals("K")) ||
                     (a.equals("K") && b.equals("B"))
             ) {
-                poinAbu++;
+                pointAbu++;
             } else {
-                poinBagas++;
+                pointBagas++;
             }
         }
 
-        if (poinAbu > poinBagas) {
+        if (pointAbu > pointBagas) {
             System.out.println("Abu");
-        } else if (poinBagas > poinAbu) {
+        } else if (pointBagas > pointAbu) {
             System.out.println("Bagas");
         } else {
             System.out.println("Seri");
