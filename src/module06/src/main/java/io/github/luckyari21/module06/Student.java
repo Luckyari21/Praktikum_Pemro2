@@ -1,14 +1,14 @@
-package module06;
+package io.github.luckyari21.module06;
 
 public class Student {
     private int id;
     private String name;
-    private String nim;
+    private String studentId;
 
-    public Student(int id, String name, String nim) {
+    public Student(int id, String name, String studentId) {
         this.id = id;
         this.name = name;
-        this.nim = nim;
+        this.studentId = studentId;
     }
 
     public int getId() {
@@ -27,11 +27,11 @@ public class Student {
         this.name = name;
     }
 
-    public String getNim() {
-        return nim;
+    public String getStudentId() {
+        return studentId;
     }
 
-    public void setNim(String nim) {
-        this.nim = nim;
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
     }
 }
