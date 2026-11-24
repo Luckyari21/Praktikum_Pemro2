@@ -94,7 +94,6 @@ public class Main {
                 case 0:
                    students.clear();
                    System.out.println("Terima Kasih!");
-
                    return;
 
                 default:
